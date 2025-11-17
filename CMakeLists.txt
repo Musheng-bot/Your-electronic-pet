@@ -14,10 +14,15 @@ find_package(Qt6 COMPONENTS
 		Widgets
 		REQUIRED)
 
-add_executable(Pet main.cpp)
+qt_add_resources(RESOURCES resources.qrc)
+
+add_executable(Pet main.cpp
+		Pet.cpp
+		Pet.hpp ${RESOURCES})
 target_link_libraries(Pet
 		Qt::Core
 		Qt::Gui
 		Qt::Widgets
 )
+target_compile_definitions(Pet PRIVATE QT_NO_DEBUG_OUTPUT)
 

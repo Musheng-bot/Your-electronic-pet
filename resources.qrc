@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/idle">  <!-- 资源前缀，访问时需包含 -->
+        <file>res/b_0.png</file>
+        <file>res/b_1.png</file>
+        <file>res/b_2.png</file>
+        <file>res/b_3.png</file>
+        <file>res/b_4.png</file>
+        <file>res/b_5.png</file>
+        <file>res/b_6.png</file>
+        <file>res/b_7.png</file>
+        <file>res/b_8.png</file>
+        <file>res/b_9.png</file>
+        <file>res/b_10.png</file>
+        <file>res/b_11.png</file>
+        <file>res/b_12.png</file>
+        <file>res/b_13.png</file>
+        <file>res/b_14.png</file>
+        <file>res/b_15.png</file>
+        <file>res/b_16.png</file>
+        <file>res/b_17.png</file>
+        <file>res/b_18.png</file>
+        <file>res/b_19.png</file>
+        <file>res/b_20.png</file>
+        <file>res/b_21.png</file>
+        <file>res/b_22.png</file>
+        <file>res/b_23.png</file>
+        <file>res/b_24.png</file>
+    </qresource>
+</RCC>
